@@ -4733,10 +4733,12 @@ fieldset:disabled .btn {
   display: flex;
   flex-direction: column;
   min-width: 0;
+  height: 620px;
+  vertical-align: auto;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: rgba(250, 211, 144, 0.3);
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(250, 211, 144, 0.6);
 }
 .card > hr {
   margin-right: 0;
@@ -11444,18 +11446,18 @@ blockquote {
     background: transparent;
   }
   #mainNav .navbar-brand {
-    color: #fff200;
+    color: #fff;
   }
   #mainNav .navbar-brand:focus,
   #mainNav .navbar-brand:hover {
-    color: rgba(255, 242, 0, 0.8);
+    color: #ff3838;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
-    color: #fff200;
+    color: #fff;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-    color: rgba(255, 242, 0, 0.8);
+    color: #ff3838;
   }
 }
 @media (min-width: 992px) {
@@ -11475,14 +11477,14 @@ blockquote {
     /* color: rgba(255, 242, 0, 10); */
   }
   #mainNav.is-fixed .navbar-brand {
-    color: #fff200;
+    color: #eb2f06;
   }
   #mainNav.is-fixed .navbar-brand:focus,
   #mainNav.is-fixed .navbar-brand:hover {
     color: #ff3838;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-    color: #fff200;
+    color: #eb2f06;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus,
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
@@ -11616,16 +11618,16 @@ header.masthead .post-heading .meta a {
   height: 300px;
 }
 .post-preview {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 2px;
 }
 .post-preview > a {
-  color: #3d3d3d;
+  color: #fff;
 }
 .post-preview > a:focus,
 .post-preview > a:hover {
   text-decoration: none;
-  color: #0085a1;
+  color: #e55039;
 }
 .post-preview > a > .post-title {
   font-size: 1.875rem;
@@ -11640,10 +11642,11 @@ header.masthead .post-heading .meta a {
   font-size: 1.125rem;
   font-style: italic;
   margin-top: 0;
-  color: #3d3d3d;
+  color: #fff;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
+  color: #fff;
 }
 @media (min-width: 992px) {
   .post-preview > a > .post-title {
