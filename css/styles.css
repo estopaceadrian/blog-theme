@@ -11608,8 +11608,19 @@ header.masthead .post-heading .meta a {
   text-align: center;
 }
 
+/* content */
+
+.post-img {
+  max-width: 100%;
+  margin: 10px;
+  height: 300px;
+}
+.post-preview {
+  background-color: #000;
+  border-radius: 2px;
+}
 .post-preview > a {
-  color: #212529;
+  color: #3d3d3d;
 }
 .post-preview > a:focus,
 .post-preview > a:hover {
@@ -11629,7 +11640,7 @@ header.masthead .post-heading .meta a {
   font-size: 1.125rem;
   font-style: italic;
   margin-top: 0;
-  color: #6c757d;
+  color: #3d3d3d;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
