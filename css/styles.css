@@ -4733,13 +4733,17 @@ fieldset:disabled .btn {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  height: 620px;
   vertical-align: auto;
   word-wrap: break-word;
-  background-color: rgba(250, 211, 144, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   background-clip: border-box;
-  border: 1px solid rgba(250, 211, 144, 0.6);
 }
+
+.card:hover {
+  opacity: 0.8;
+  text-decoration: #e55039;
+}
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -11617,11 +11621,11 @@ header.masthead .post-heading .meta a {
   height: fit-content;
 }
 .post-preview {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(71, 85, 105, 0.1);
   border-radius: 2px;
 }
 .post-preview > a {
-  color: #fff;
+  color: #1e293b;
 }
 .post-preview > a:focus,
 .post-preview > a:hover {
@@ -11641,14 +11645,19 @@ header.masthead .post-heading .meta a {
   font-size: 1.125rem;
   font-style: italic;
   margin-top: 0;
-  color: #fff;
+  color: #94a3b8;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #fff;
+  color: #94a3b8;
 }
 @media (min-width: 992px) {
   .post-preview > a > .post-title {
     font-size: 2.25rem;
   }
+}
+
+.share {
+  color: #52525b;
+  flex-direction: row-reverse;
 }
